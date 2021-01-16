@@ -8,9 +8,12 @@ Exclamation symbols (:exclamation:) note something of importance e.g. breaking c
 - [:ledger: View file changes][Unreleased]
 ### Added
 ### Changed
+- Improved error messages for empty input.
+- Log update when processing it, not when fetching input.
 ### Deprecated
 ### Removed
 ### Fixed
+- `getUpdates` method wrongly sends only 1 Update when a limit of 0 is passed.
 ### Security
 
 ## [0.70.1] - 2020-12-25
